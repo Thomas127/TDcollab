@@ -2,3 +2,12 @@ h1 {
   color: greenyellow;
   text-align: center;
 }
+.bas_de_page{
+  position: absolute;
+  background-color: yellow;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
