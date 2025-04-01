@@ -9,7 +9,6 @@ if [[ -d "./src" && -d "./site" ]]; then
         exit 1
     else
         echo "Le dossier 'site' contient uniquement des fichiers .html et .php."
-        exit 0
     fi
 
     # Vérification de l'existence des dossiers "src" et "site"
@@ -23,7 +22,6 @@ if [[ -d "./src" && -d "./site" ]]; then
             exit 1
         else
             echo "Le dossier 'js' contient uniquement des fichiers .js."
-            exit 0
         fi
 
         # Vérification des fichiers dans "css"
@@ -34,7 +32,6 @@ if [[ -d "./src" && -d "./site" ]]; then
             exit 1
         else
             echo "Le dossier 'css' contient uniquement des fichiers .css."
-            exit 0
         fi
 
         # Vérification des fichiers dans "img"
@@ -45,7 +42,6 @@ if [[ -d "./src" && -d "./site" ]]; then
             exit 1
         else
             echo "Le dossier 'img' contient uniquement des fichiers .png et .jpg."
-            exit 0
         fi
 
     else
