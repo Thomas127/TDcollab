@@ -1,0 +1,13 @@
+name: verif code
+on: [push]
+jobs:
+  example:
+    name: Demo-Cours
+    runs-on: ubuntu-latest
+    steps:
+      - name: faire checkout
+        uses: actions/checkout@v4
+      - name: liste fichier
+        run: ls -la
+      - name: working dir
+        run: pwd
