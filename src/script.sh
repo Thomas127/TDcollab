@@ -2,10 +2,10 @@ if [[ -d "./src" && -d "./site" ]]; then
     echo "Racine ok"    #!/bin/bash
     
     # Vérification des fichiers dans "img"
-    invalid_img=$(find ./site -type f ! \( -name "*.html" -o -name "*.php" \))
-    if [[ -n "$invalid_img" ]]; then
+    invalid_site=$(find ./site -mindepth 1 -maxdepth 1 ! -type d ! \( -name "*.html" -o -name "*.php" \))
+    if [[ -n "$invalid_site" ]]; then
         echo "Erreur : Le dossier 'site' contient des fichiers non autorisés :"
-        echo "$invalid_img"
+        echo "$invalid_site"
         exit 1
     else
         echo "Le dossier 'site' contient uniquement des fichiers .html et .php."
