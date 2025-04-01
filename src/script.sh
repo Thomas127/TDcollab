@@ -1,7 +1,7 @@
 if [[ -d "./src" && -d "./test" ]]; then
-    echo "Directories exist."
+    echo "Tout est ok."
     exit 0
 else
-    echo "Directories do not exist."
+    echo "Le fichier n'existe pas."
     exit 1
 fi

@@ -18,7 +18,7 @@ jobs:
           php phpcs.phar --standard=PSR12 --extensions=php --ignore=vendor/ .
 
       - name: Verification architecture
-        run: bash ./src/script.sh
+        run: bash src/script.sh
 
       - name: working dir
         run: pwd
