@@ -13,7 +13,7 @@
 require_once "src/MesDates.php";
 
 // Affiche la version de PHP
-echo 'Version de PHP : ' . phpversion() . "\n";echo 'Version de PHP : ' . phpversion() . "\n";
+echo 'Version de PHP : ' . phpversion() . "\n";
 
 $objDate = new \UPJV\Date();e();
 echo $objDate->demain();echo $objDate->demain();
