@@ -2,15 +2,13 @@
 
 /**
  * Je suis un commentaireJe suis un commentaire
- * 
  * PHP version 8.0PHP version 8.0
- * 
  * @category Content
  * @package  Content
  * @author   Display
  * @license  https://opensource.org/licenses/MIT MIT Licensepensource.org/licenses/MIT MIT License
  * @link     https://insset.fr@link     https://insset.fr
- */ */
+ */
 
 require_once "src/MesDates.php";require_once "src/MesDates.php";
 
@@ -19,4 +17,3 @@ echo 'Version de PHP : ' . phpversion() . "\n";echo 'Version de PHP : ' . phpver
 
 $objDate = new \UPJV\Date();e();
 echo $objDate->demain();echo $objDate->demain();
-

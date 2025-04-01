@@ -3,7 +3,6 @@
 /**
  * PHP version 8.0
  * Je suis un commentaire
- * 
  * @category Content
  * @package  Content
  * @author   Display Name <Thomas@example.com>
@@ -15,7 +14,6 @@ namespace UPJV;
 
 /**
  * Class Date
- * 
  * Cette classe fournit des méthodes pour manipuler les dates.
  * 
  * @category Content
