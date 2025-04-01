@@ -12,6 +12,13 @@ jobs:
 
       - name: PHP CS
         run: curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
-        
+      
+      - name: PHP Verif
+        uses: php-actions/phpcs@v1
+        with:
+          php_version: 8.1
+          path: /index.html
+          standard: phpcs.xml
+
       - name: working dir
         run: pwd
