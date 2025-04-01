@@ -1,6 +1,7 @@
 if [[ -d "./src" && -d "./test" ]]; then
     echo "Tout est ok."
     exit 0
+    
 else
     echo "Le fichier n'existe pas."
     exit 1
