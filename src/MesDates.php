@@ -15,7 +15,6 @@ namespace UPJV;
 /**
  * Class Date
  * Cette classe fournit des méthodes pour manipuler les dates.
- * 
  * @category Content
  * @package  Content
  * @author   Display

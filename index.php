@@ -10,7 +10,7 @@
  * @link     https://insset.fr@link     https://insset.fr
  */
 
-require_once "src/MesDates.php";require_once "src/MesDates.php";
+require_once "src/MesDates.php";
 
 // Affiche la version de PHP
 echo 'Version de PHP : ' . phpversion() . "\n";echo 'Version de PHP : ' . phpversion() . "\n";
