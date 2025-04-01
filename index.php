@@ -1,20 +1,22 @@
 <?php
-/** 
- * Je suis un commentaire 
+
+/**
+ * Je suis un commentaireJe suis un commentaire
  * 
- * PHP version 8.0
+ * PHP version 8.0PHP version 8.0
  * 
  * @category Content
  * @package  Content
- * @author   Display Name <Thomas@example.com>
- * @license  https://opensource.org/licenses/MIT MIT License
- * @link     Insset.fr
- */
+ * @author   Display
+ * @license  https://opensource.org/licenses/MIT MIT Licensepensource.org/licenses/MIT MIT License
+ * @link     https://insset.fr@link     https://insset.fr
+ */ */
 
-require_once "src/MesDates.php";
+require_once "src/MesDates.php";require_once "src/MesDates.php";
 
 // Affiche la version de PHP
-echo 'Version de PHP : ' . phpversion() . "\n";
+echo 'Version de PHP : ' . phpversion() . "\n";echo 'Version de PHP : ' . phpversion() . "\n";
 
-$objDate = new Date();
-echo $objDate->demain();
+$objDate = new \UPJV\Date();e();
+echo $objDate->demain();echo $objDate->demain();
+
