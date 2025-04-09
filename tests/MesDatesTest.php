@@ -5,6 +5,8 @@ namespace test;
 use PHPUnit\Framework\TestCase;
 use UPJV\Date;
 
+require_once __DIR__ . '/../src/MesDates.php';
+
 /**
  * PHP version 8.0
  * Je suis un commentaire
