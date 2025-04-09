@@ -2,7 +2,7 @@
 
 namespace test;
 
-#require_once __DIR__ . '/../src/MesDates.php';
+require_once __DIR__ . '/../src/MesDates.php';
 
 use PHPUnit\Framework\TestCase;
 use UPJV\Date;

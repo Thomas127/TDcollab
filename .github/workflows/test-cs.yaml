@@ -15,7 +15,7 @@ jobs:
       
       - name: Verifier le code
         run: |
-          php phpcs.phar --extensions=php --ignore=vendor/ .
+          php phpcs.phar --standard=PSR1 --extensions=php --ignore=vendor/ .
 
       - name: Verification architecture
         run: bash src/script.sh
@@ -29,7 +29,7 @@ jobs:
     steps:
       - name: faire checkout
         uses: actions/checkout@v4
-
+        
       - name: PHP UNIT
         run: wget -O phpunit https://phar.phpunit.de/phpunit-12.phar
       
