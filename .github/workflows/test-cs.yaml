@@ -27,6 +27,8 @@ jobs:
     name: Installer et tester
     runs-on: ubuntu-latest
     steps:
+      - name: faire checkout
+        uses: actions/checkout@v4
 
       - name: PHP UNIT
         run: wget -O phpunit https://phar.phpunit.de/phpunit-12.phar
