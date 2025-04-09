@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/../src/MesDates.php';
+namespace test;
 
 use PHPUnit\Framework\TestCase;
 use UPJV\Date;
@@ -15,7 +15,7 @@ use UPJV\Date;
  * @link     https://insset.fr
  */
 
- /**
+/**
   * Class Date
   * Cette classe fournit des méthodes pour manipuler les dates.
   * @category Content
