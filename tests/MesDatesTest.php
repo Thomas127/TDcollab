@@ -2,7 +2,6 @@
 
 require_once __DIR__ . '/../src/MesDates.php';
 
-use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 use UPJV\Date;
 
@@ -28,6 +27,12 @@ use UPJV\Date;
 
 final class MesDatesTest extends TestCase
 {
+    /**
+     * Teste la méthode demain() pour vérifier qu'elle retourne la date de demain
+     * au format JSON.
+     *
+     * @return void
+     */
     public function testDateFormat()
     {
         $date = new Date();
@@ -38,4 +43,3 @@ final class MesDatesTest extends TestCase
         );
     }
 }
-
