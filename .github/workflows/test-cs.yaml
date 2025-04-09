@@ -15,7 +15,7 @@ jobs:
       
       - name: Verifier le code
         run: |
-          php phpcs.phar --standard=PSR12 --extensions=php --ignore=vendor/ .
+          php phpcs.phar --extensions=php --ignore=vendor/ .
 
       - name: Verification architecture
         run: bash src/script.sh
