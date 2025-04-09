@@ -1,3 +1,4 @@
+#!/bin/bash
 if [[ -d "./src" && -d "./site" && -d "./tests"]]; then
     echo "Racine ok"    #!/bin/bash
     
