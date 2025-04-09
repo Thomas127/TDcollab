@@ -22,3 +22,17 @@ jobs:
 
       - name: working dir
         run: pwd
+
+  example:
+    name: Installer et tester
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: PHP UNIT
+        run: wget -O phpunit https://phar.phpunit.de/phpunit-12.phar
+      
+      - name: Droit
+        run: chmod +x phpunit
+      
+      - name: Test
+        run: php phpunit.phar tests/MesDatesTest.php

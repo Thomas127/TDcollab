@@ -1,4 +1,4 @@
-if [[ -d "./src" && -d "./site" ]]; then
+if [[ -d "./src" && -d "./site" && -d "./tests"]]; then
     echo "Racine ok"    #!/bin/bash
     
     # Vérification des fichiers dans "img"
