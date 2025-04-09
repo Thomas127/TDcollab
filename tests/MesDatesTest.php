@@ -1,11 +1,11 @@
 <?php
 
-namespace test;
+#namespace test;
+
+require_once __DIR__ . '/../src/MesDates.php';
 
 use PHPUnit\Framework\TestCase;
 use UPJV\Date;
-
-require_once __DIR__ . '/../src/MesDates.php';
 
 /**
  * PHP version 8.0
