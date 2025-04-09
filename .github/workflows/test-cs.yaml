@@ -23,7 +23,7 @@ jobs:
       - name: working dir
         run: pwd
 
-  example:
+  example1:
     name: Installer et tester
     runs-on: ubuntu-latest
     steps:
