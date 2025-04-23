@@ -54,6 +54,6 @@ jobs:
       
       - name: Attendre le serveur
         run: sleep 5
-        
+
       - name: Verfication du formulaire
-        run: http://localhost:8000/site/formulaire.php
+        run: http://localhost:8080/site/formulaire.php
