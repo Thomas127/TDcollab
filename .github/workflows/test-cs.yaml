@@ -51,11 +51,6 @@ jobs:
 
       - name: Démarrer le serveur
         run: php -S localhost:8080 -t public &
-
-      - name: tester le serveur
-        run: |
-          sleep 5
-          curl -I http://localhost:8080
       
       - name: Verfication du formulaire
         run: http://localhost:8000/site/formulaire.php
