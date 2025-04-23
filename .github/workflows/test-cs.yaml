@@ -43,14 +43,18 @@ jobs:
     name: TEST CAFEE
     runs-on: ubuntu-latest
     steps:
+
+      - name: Install node
+        run: sudo apt-get install nodejs npm
+
+      - name: Install php
+        run: sudo apt-get install php
+
       - name: faire checkout
         uses: actions/checkout@v4
 
-      - name: install de php
-        uses: sudo apt-get install php
-
       - name: Démarrer le serveur
-        run: php -S localhost:8080 -t public &
+        run: php -S localhost:8080 -t public
       
       - name: Attendre le serveur
         run: sleep 5
