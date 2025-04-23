@@ -46,8 +46,8 @@ jobs:
       - name: faire checkout
         uses: actions/checkout@v4
 
-      - name: Utilisation de php
-        uses: shivammathur/setup-php@v2
+      - name: install de php
+        uses: sudo apt-get install php
 
       - name: Démarrer le serveur
         run: php -S localhost:8080 -t public &
