@@ -62,5 +62,8 @@ jobs:
       - name: Attendre le serveur
         run: sleep 5
 
+      - name: Vérification serveur
+        run: curl -I http://localhost:8080
+
       - name: Verfication du formulaire
         run: http://localhost:8080/tests/script.js
